@@ -3,3 +3,7 @@ steps:
     args: ['build', '-t', 'gcr.io/my-project-id/myimage', '.']
 options:
   logging: CLOUD_LOGGING_ONLY
+artifacts:
+  objects:
+    location: 'gs://tru5tzz-quick-storage/docker-artifacts/'
+    path: ['cloudbuild.yaml']

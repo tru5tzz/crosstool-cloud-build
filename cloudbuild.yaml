@@ -6,4 +6,4 @@ options:
 artifacts:
   objects:
     location: 'gs://tru5tzz-quick-storage/docker-artifacts/'
-    path: ['cloudbuild.yaml']
+    paths: ['cloudbuild.yaml']
